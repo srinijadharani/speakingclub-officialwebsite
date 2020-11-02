@@ -1,0 +1,157 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e8ffff !important;
+}
+
+.logo {
+    height: 50px;
+    width: 60px;
+}
+
+.gitam-logo {
+    width: 120px;
+    height: 40px;
+}
+
+
+/* ===== Navbar stuff ====== */
+
+.navbar {
+    background-color: #19d3da;
+    height: 70px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    padding: 24px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    transition: 0.3s ease;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    border-top: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    padding: 6px 0;
+}
+
+.home-img {
+    height: 400px;
+    width: 500px;
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 150px;
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 180px;
+    color: #19d3da;
+}
+
+
+/* CHECK script.js to understand what 't' is */
+
+.t {
+    transition: all .2s ease-in-out;
+}
+
+.t:hover {
+    /* transform: scale(1.1) !important;  this didn't work*/
+    color: #056676;
+}
+
+.letters {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+/* span {
+    transition: all 6s ease;
+    color: #150485;
+}
+
+span.fade {
+    color: #db6400;
+} */
+
+.tagline {
+    position: relative;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+.tagline .letter {
+    display: inline-block;
+    /* line-height: 1em; */
+    transform-origin: 0 0;
+    /* padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em; */
+    overflow: hidden;
+}
+
+#about {
+    margin-top: 200px;
+}
+
+.section-heading {
+    /* margin-top: 200px; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #19d3da;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.about-para {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 2;
+    text-align: center;
+}
+
+.video {
+    box-shadow: 5px 5px 8px #888888;
+}
+
+.video-div {
+    text-align: center;
+}
+
+#register {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact {
+    margin-top: 50px;
+}
+
+.contact-para {
+    text-align: center;
+}
