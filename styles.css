@@ -190,7 +190,7 @@ nav a:hover {
 @media (max-width: 1080px) {
     .gif {
         position: absolute;
-        top: 1200px;
+        top: 500px;
         left: 75px;
         height: 190px;
         width: 230px;
