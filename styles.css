@@ -189,8 +189,9 @@ nav a:hover {
 
 @media (max-width: 1080px) {
     .gif {
-        top: 320px;
-        left: 65px;
+        position: absolute;
+        top: 300px;
+        left: 75px;
         height: 190px;
         width: 230px;
     }
